@@ -8,4 +8,4 @@ COPY . .
 
 RUN chmod 755 entrypoint.sh
 
-ENTRYPOINT ./entrypoint.sh npm start
+ENTRYPOINT ./entrypoint.sh
