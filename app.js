@@ -1,6 +1,6 @@
 const express = require('express');
 
-const SLEEP_MSEC = 120 * 1000;
+const SLEEP_MSEC = 180 * 1000;
 const app = express();
 
 app.get('/healthcheck', (req, res) => {
