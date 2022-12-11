@@ -5,6 +5,6 @@ Resources:
       Properties:
         TaskDefinition: "arn:aws:ecs:ap-northeast-1:698092933908:task-definition/graceful-shutdown-sample-dev-graceful-shutdown-sample-lb"
         LoadBalancerInfo:
-          ContainerName: "graceful-shutdown-sample"
+          ContainerName: "sample-app"
           ContainerPort: 80
         PlatformVersion: "LATEST"
