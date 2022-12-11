@@ -10,7 +10,7 @@
           "containerPort": 80
         }
       ],
-      "image": "698092933908.dkr.ecr.ap-northeast-1.amazonaws.com/graceful-shutdown-sample",
+      "image": "<IMAGE1_NAME>",
       "name": "graceful-shutdown-sample-lb"
     }
   ],
