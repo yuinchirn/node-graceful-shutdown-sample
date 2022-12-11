@@ -11,7 +11,7 @@
         }
       ],
       "image": "<IMAGE1_NAME>",
-      "name": "graceful-shutdown-sample-lb"
+      "name": "sample-app"
     }
   ],
   "memory": "512",
