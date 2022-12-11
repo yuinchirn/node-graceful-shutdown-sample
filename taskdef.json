@@ -1,0 +1,25 @@
+{
+  "ipcMode": null,
+  "executionRoleArn": "arn:aws:iam::698092933908:role/graceful-shutdown-sample-dev-gracefu-ExecutionRole-2KNTJ1K66IV",
+  "containerDefinitions": [
+    {
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "protocol": "tcp",
+          "containerPort": 80
+        }
+      ],
+      "image": "698092933908.dkr.ecr.ap-northeast-1.amazonaws.com/graceful-shutdown-sample",
+      "name": "graceful-shutdown-sample-lb"
+    }
+  ],
+  "memory": "512",
+  "taskRoleArn": "arn:aws:iam::698092933908:role/graceful-shutdown-sample-dev-graceful-shu-TaskRole-KLJHV74TE0IM",
+  "family": "graceful-shutdown-sample-dev-graceful-shutdown-sample-lb",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ],
+  "networkMode": "awsvpc",
+  "cpu": "256"
+}
