@@ -13,7 +13,7 @@ app.get('/sleep', (req, res) => {
 
 const server = app.listen(80, () => console.log('Example app listening on port 80!'));
 
-process.on('SIGTERM', () => {
-  console.log('SIGTERM RECEVIED.')	
-});
+//process.on('SIGTERM', () => {
+//  console.log('SIGTERM RECEVIED.')	
+//});
 
